@@ -1,0 +1,280 @@
+.s1{
+    border: none;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 21px;
+    background-color: #7209B7;
+    margin-top: 20px;
+    width: 100%;
+    font-size:30px ;
+    color: white;
+}
+.s2{
+    border: none;
+     font-weight: bolder;
+    text-align: center;
+    border-radius: 21px;
+    background-color: #D9C3E7;
+    margin-top: 20px;
+    width: 100%;
+    font-size:35px ;
+    
+}
+.s2:hover{
+    background-color: #7209B7;
+     color: white;
+     transition: all 1s ease-in-out;
+}
+.s3{
+    border: none;
+     font-weight: bolder;
+    text-align: center;
+    border-radius: 21px;
+    background-color: #D9C3E7;
+    margin-top: 20px;
+    width: 100%;
+    font-size:35px ;
+    
+}
+.s3:hover{
+    background-color: #7209B7;
+     color: white;
+      transition: all 1s ease-in-out;
+}
+.s4{
+    border: none;
+     font-weight: bolder;
+    text-align: center;
+    border-radius: 21px;
+    background-color: #D9C3E7;
+    margin-top: 20px;
+    width: 100%;
+    font-size:35px ;
+    
+}
+.s4:hover{
+    background-color: #7209B7;
+     color: white;
+      transition: all 1s ease-in-out;
+}
+.s5{
+    align-items: end;
+   display: block;
+   margin-left: auto;
+    border: none;
+     font-weight: bolder;
+    text-align: center;
+    border-radius: 21px;
+    background-color: #D9C3E7;
+    margin-top: 20px;
+    width: 50%;
+    font-size:28px ;
+    
+}
+.s5:hover{
+    background-color: #7209B7;
+     color: white;
+      transition: all 1s ease-in-out;
+}
+.ima{
+    justify-content: center;
+}
+.timer{
+    position: absolute;
+    font-size: 60px;
+    bottom: 0px;
+    right: 100px;
+    color: white;
+    font-weight: bolder;
+
+
+}
+.der{
+    background-color: #D9C3E7;
+}
+.ime{
+    position: relative;
+}
+.na{
+    background-color: #D9C3E7 !important;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.hed{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    width: 100px;
+}
+.sear{
+    width: 750px;
+}
+.log{
+    border: none;
+    background-color: #D9C3E7;
+}
+.butt{
+    font-weight: bolder;
+    margin-left: 50px;
+    gap: 500px;
+}
+.box1{
+    background-color: #D9C3E7;
+}
+.rate{
+    width: 50%;
+}
+.shp{
+    background-color: #D9C3E7;
+    width: 100%;
+    margin-top: 20px;
+
+    
+}
+.shit{
+    height: 560.98px;
+}
+.pos{
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: 10000;
+}
+.cent{
+    align-items: center;
+    justify-content: center;
+
+}
+.deal{
+    background-color: #D9C3E7;
+    width: 80%;
+    color: black;
+    font-weight: bolder;
+  
+
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.hot{
+    margin-left: -80px;
+    justify-content: center;
+   
+}
+.shap{
+    transition: all 2s ease-in-out;
+}
+.shap:hover{
+    scale: 1.1;
+}
+.scr{
+    gap: 20px;
+}
+.sell{
+    display: inline-block;
+    background-color: #C61BEC;
+    border-radius: 10px;
+    font-size: larger;
+    padding: 5px;
+    color: white;
+    
+}
+.seller{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.bet{
+    position: relative;
+}
+.mob{
+    height: 528px;
+     background-color: #D9C3E7;
+}
+.mot{
+    border: 2px solid black;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.fot:hover{
+    text-decoration: underline;
+}
+.mail{
+    margin-left: 150px;
+}
+.foll{
+    font-size: 30px;
+}
+.reh{
+    display: none;
+    
+}
+.blo{
+    display: none;
+}
+
+@media(max-width: 550px){
+
+
+   .timer{
+    font-size: 20px;
+    top: 5px;
+    
+   }
+   .sear{
+    display: none;
+    
+   }
+   .reh{
+    display: block;
+    margin-top: 20px;
+   }
+   .ttr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   }
+   .imog{
+    width: 2000000px;
+   }
+   .mail{
+    margin-left: 0px;
+   }
+}
+@media(max-width:991px){
+   
+
+     .timer{
+        font-size: 40px;
+    bottom: -10px;
+    right: 15px;
+     }
+        .sear{
+    display: none;
+    
+   }
+  .reh{
+    display: block;
+    margin-top: 20px;
+   }
+   .box{
+    justify-content: center;
+    display: flex;
+   }
+   .moo{
+    text-align: center;
+   }
+   .blo{
+    display: block;
+   }
+
+   .non{
+    display: none;
+   }
+}

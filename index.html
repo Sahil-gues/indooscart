@@ -1,0 +1,699 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Indocart</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+  <link rel="stylesheet" href="Work.css">
+  <style>
+    .swiper {
+      width: 100%;
+      height: 50%;
+    }
+  </style>
+</head>
+
+<body class="bod">
+ 
+  <div   class="container mt-5" >
+    <div class="row">
+      <div class="col-sm-12">
+        <img src="Figma portfolio/Banner.jpg" alt="Banner" class="img-fluid w-100" >
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-12 ime">
+
+        <img src="Figma portfolio/Suorise.jpg" alt="suprise" class="img-fluid ima">
+
+
+        <div class="timer">
+          <p id="demo"></p>
+
+          <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("jun 1, 2026 15:37:25").getTime();
+
+            // Update the count down every 1 second
+            var x = setInterval(function () {
+
+              // Get today's date and time
+              var now = new Date().getTime();
+
+              // Find the distance between now and the count down date
+              var distance = countDownDate - now;
+
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+              // Output the result in an element with id="demo"
+              document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+
+              // If the count down is over, write some text 
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+              }
+            }, 1000);
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- nav bar -->
+  <div class="container-fluid pos mt-3">
+    <nav class="navbar navbar-expand-lg der">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#"><img src="Figma portfolio/cart.png" alt="logo" width="200x"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 sear" type="search" placeholder="Search" aria-label="Search" />
+            <div class="butt">
+              <button class="fs-5 log btn per"><i class="fa-regular fa-circle-user"></i> Login</button>
+              <button class="fs-5 log btn car"><i class="fa-solid fa-cart-shopping"></i> Cart</button>
+              <button class="fs-5 log btn cus"><i class="fa-solid fa-headset"></i> 24/7</button>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- Nav bar end  -->
+   <!-- res ser st -->
+    <form class="d-flex" role="search">
+            <input class="form-control me-2 reh" type="search" placeholder="Search" aria-label="Search" />
+          </form>
+
+          
+  <!-- New tab -->
+  <div class="container-fluid w-100">
+    <div class="row hot">
+      <div class="col-sm-12 deal fs-1 disabled">
+        Hot Deals
+      </div>
+    </div>
+  </div>
+  <div class="container ">
+    <div class="row cent">
+      <div class="col-sm-4 col-md-6 col-lg-4 ttr shap">
+        <a href="Zip.html">
+        <div class="card shit shp" style="width: 18rem;">
+          <img src="Figma portfolio/T-shirt/T-shirt(1).webp" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <p class="card-text">Try This Men Checkered Zip Neck Cotton Blend Brown, White T-Shirt</p>
+
+            <h1 class="fs-5 rate">Price : ₹199</h1>
+
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-sm-4  col-md-6 col-lg-4 ttr shap">
+        <a href="Roadstar.html">
+        <div class="card shit shp" style="width: 18rem;">
+          <img src="Figma portfolio/T-shirt/T-shirt(2).webp" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <p class="card-text">Roadster Men Solid Polo Neck Polycotton Brown T-Shirt</p>
+
+            <h1 class="fs-5 rate">Price : ₹256</h1>
+
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-sm-4 col-md-6 col-lg-4 ttr shap">
+        <a href="Garim.html">
+        <div class="card shit shp" style="width: 18rem;">
+          <img src="Figma portfolio/T-shirt/T-shirt(3).webp" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <p class="card-text">Garimaknitwear Men Striped Polo Neck Cotton Blend Navy Blue T-Shirt</p>
+
+            <h1 class="fs-5 rate">Price : ₹ 199</h1>
+
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-sm-4 col-md-6 col-lg-4 ttr shap">
+        <a href="Ausk.html">
+        <div class="card shit shp" style="width: 18rem;">
+          <img src="Figma portfolio/T-shirt/T-shirt(4).webp" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <p class="card-text">AUSK Men Printed Round Neck Cotton Blend Green, White T-Shirt</p>
+
+            <h1 class="fs-5 rate">Price : ₹ 159</h1>
+
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-sm-4 col-md-6 col-lg-4 ttr shap">
+        <a href="Vebnor.html">
+        <div class="card shit shp" style="width: 18rem;">
+          <img src="Figma portfolio/T-shirt/T-shirt(5).webp" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <p class="card-text"> VeBNoR Men Solid Polo Neck Polyester Beige T-Shirt</p>
+
+            <h1 class="fs-5 rate">Price : ₹ 220</h1>
+
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-sm-4 col-md-6 col-lg-4 ttr shap">
+        <a href="Try.html">
+        <div class="card shit shp" style="width: 18rem;">
+          <img src="Figma portfolio/T-shirt/T-shirt(6).webp" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <p class="card-text"> Try This Men Self Design Zip Neck Cotton Blend White, Black T-Shirt</p>
+
+            <h1 class="fs-5 rate">Price : ₹ 299</h1>
+
+          </div>
+        </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- tab end -->
+  <!--  hot deals -->
+  <div class="container mt-5">
+    <div class="row">
+      <h1>More Hot Deals</h1>
+      <div class="col-sm-12 ttr imog scr">
+        <div class="swiper mySwiper1">
+          <div class="swiper-wrapper scr">
+            <div class="swiper-slide">
+              <img src="Figma portfolio/Deals/image 1.webp" width="100%" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Figma portfolio/Deals/image 2.webp" width="100%" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Figma portfolio/Deals/image 3.webp" width="100%" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Figma portfolio/Deals/image 4.webp" width="100%" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Figma portfolio/Deals/image 6.webp" width="100%" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Figma portfolio/Deals/image 7.webp" width="100%" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Figma portfolio/Deals/image 8.webp" width="100%" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Figma portfolio/Deals/image 5.webp" width="100%" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Figma portfolio/Deals/image 9.webp" width="100%" />
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- hot deals end -->
+  <!-- Best seller start -->
+  <div class="container-fluid">
+    <div class="row hot">
+      <div class="col-sm-12 deal fs-1 disabled">
+        BestSeller
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row cent">
+
+      <div class="col-sm-4 col-md-6 col-lg-4  ttr shap">
+        <a href="Sneker.html">
+        <div class="card sty shp" style="width: 18rem;">
+          <div class="bet">
+            <img src="Figma portfolio/Best/best1.webp" class="card-img-top img-fluid" alt="...">
+            <div class="seller">
+              <h1 class="sell">BestSeller</h1>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">URBANBOX Sneakers For Men (White , 7)</p>
+
+            <h1 class="fs-5 rate">Price : ₹199</h1>
+
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-sm-4  col-md-6 col-lg-4  ttr shap">
+        <a href="blackwatch.html">
+        <div class="card sty shp" style="width: 18rem;">
+          <div class="bet">
+            <img src="Figma portfolio/Best/best2.webp" class="card-img-top img-fluid" alt="...">
+            <div class="seller">
+              <h1 class="sell">BestSeller</h1>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Shivark Silicone Strap Boys Analog Watch - For Men SL-01</p>
+
+            <h1 class="fs-5 rate">Price : ₹256</h1>
+
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-sm-4 col-md-6 col-lg-4  ttr shap">
+        <a href="Whitwatch.html">
+        <div class="card sty shp" style="width: 18rem;">
+          <div class="bet">
+            <img src="Figma portfolio/Best/best3.webp" class="card-img-top img-fluid" alt="...">
+            <div class="seller">
+              <h1 class="sell">BestSeller</h1>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">DRALIET Elegant Series Square Quartz For Boys Analog Watch - For Men LD-BK058-BLUE
+              SIlicone Strap
+              88</p>
+
+            <h1 class="fs-5 rate">Price : ₹ 199</h1>
+
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-sm-4 col-md-6 col-lg-4  ttr shap">
+        <a href="Shirt.html">
+        <div class="card sty shp" style="width: 18rem;">
+          <div class="bet">
+            <img src="Figma portfolio/Best/best4.webp" class="card-img-top img-fluid" alt="...">
+            <div class="seller">
+              <h1 class="sell">BestSeller</h1>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">j s fashion Boys Regular Fit Solid Curved Collar Casual Shirt</p>
+
+            <h1 class="fs-5 rate">Price : ₹ 159</h1>
+
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-sm-4 col-md-6 col-lg-4  ttr shap">
+        <a href="shirt2.html">
+        <div class="card sty shp" style="width: 18rem;">
+          <div class="bet">
+            <img src="Figma portfolio/Best/best5.webp" class="card-img-top img-fluid" alt="...">
+            <div class="seller">
+              <h1 class="sell">BestSeller</h1>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <p class="card-text">VeBNoR Men Regular Fit Solid Spread Collar Casual Shirt</p>
+
+            <h1 class="fs-5 rate">Price : ₹ 220</h1>
+
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-sm-4 col-md-6 col-lg-4  ttr shap">
+        <a href="shirt3.html">
+        <div class="card sty shp" style="width: 18rem;">
+          <div class="bet">
+            <img src="Figma portfolio/Best/best6.webp" class="card-img-top img-fluid" alt="...">
+            <div class="seller">
+              <h1 class="sell">BestSeller</h1>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Surhi Men Regular Fit Checkered Spread Collar Casual Shirt</p>
+
+            <h1 class="fs-5 rate">Price : ₹ 299</h1>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+  </div>
+  <!-- Best seller -->
+  <!-- Mobile and aceesraies -->
+  <div class="container mt-5 non ">
+    <div class="mobile">
+      <h1>Mobile and accessories</h1>
+    </div>
+    <div class="row">
+      <div class="swiper mySwiper2 mt-3  ">
+        <div class="swiper-wrapper ">
+          <div class="swiper-slide ttr ">
+            <div class="card mot mob shap" style="width: 18rem;">
+              <img src="Figma portfolio/mobiles/p1.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Samsung Galaxy M17 5G Mobile (Sapphire Black, 6GB RAM, 128GB Storage) | 50MP OIS
+                  Triple Camera | Gorilla Glass Victus | IP54 | 6 Gen OS Upgrades | AI | Gemini Live | Lag-Free Gaming |
+                  Without Charger</p>
+                <h1 class="fs-5 rate">Price : ₹15499</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ttr">
+            <div class="card mot mob shap" style="width: 18rem;">
+              <img src="Figma portfolio/mobiles/p2.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Samsung Galaxy A35 5G (Awesome Lilac, 8GB RAM, 128GB Storage) | Premium Glass Back
+                  | 50 MP Main Camera (OIS) | Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED with Vision
+                  Booster
+                </p>
+                <h1 class="fs-5 rate">Price : ₹28999</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ttr">
+            <div class="card mob mot shap" style="width: 18rem;">
+              <img src="Figma portfolio/mobiles/a2.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">En ligne 47 Mobile Holder
+                </p>
+                <h1 class="fs-5 rate">Price : ₹167</h1>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-slide ttr">
+            <div class="swiper-slide">
+              <div class="card mob mot shap" style="width: 18rem;">
+                <img src="Figma portfolio/mobiles/p6.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Hold up Mini Fill Lights for Cell Phone Laptop TikTok Selfie Video Conference
+                    Camera Flash (White Light&Warm Light&Warm White Light)
+                  </p>
+                  <h1 class="fs-5 rate">Price : ₹399</h1>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="swiper-slide ttr ">
+            <div class="card mot mob shap" style="width: 18rem;">
+              <img src="Figma portfolio/mobiles/p3.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">APPLE iPhone Air (Sky Blue, 256 GB)
+                </p>
+                <h1 class="fs-5 rate">Price : ₹99,900</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ttr">
+            <div class="card mot mob shap" style="width: 18rem;">
+              <img src="Figma portfolio/mobiles/p5.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">IQOO Z10 5G (Stellar Black / Black, 128 GB) (8 GB RAM)
+                </p>
+                <h1 class="fs-5 rate">Price : ₹24,077</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ttr">
+            <div class="card mot mob shap" style="width: 18rem;">
+              <img src="Figma portfolio/mobiles/p4.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">REDMI 15 5G (Midnight Black, 128 GB) (6 GB RAM)
+                </p>
+                <h1 class="fs-5 rate">Price : ₹16,999</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ttr">
+            <div class="card mot mob shap" style="width: 18rem;">
+              <img src="Figma portfolio/mobiles/a1.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">SB 65 W SuperVOOC 6 A Wall Charger for Mobile with Detachable Cable (White, Cable
+                  Included)
+                </p>
+                <h1 class="fs-5 rate">Price : ₹300</h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide ttr">
+            <div class="card mot mob shap" style="width: 18rem;">
+              <img src="Figma portfolio/mobiles/a3.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">ELV DIRECT Wall Mount Mobile Stand/Multi-Purpose Stand for Phone Charging (White)
+                  Mobile Holder
+                </p>
+                <h1 class="fs-5 rate">Price : ₹151</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+  </div>
+  <!-- mobile end  -->
+   <!-- mobile tb -->
+    <div class="contaoner-fluid blo mt-5">
+      <div class="mobile moo">
+      <h1>Mobile and accessories</h1>
+    </div>
+      <div class="row">
+        <div class="col-md-6 box shap ">
+          <div class="card sty shp" style="width: 18rem;">
+              <img src="Figma portfolio/mobiles/p1.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Samsung Galaxy M17 5G Mobile (Sapphire Black, 6GB RAM, 128GB Storage) | 50MP OIS
+                  Triple Camera | Gorilla Glass Victus | IP54 | 6 Gen OS Upgrades | AI | Gemini Live | Lag-Free Gaming |
+                  Without Charger</p>
+                <h1 class="fs-5 rate">Price : ₹15499</h1>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-6 box shap">
+          <div class="card sty shp" style="width: 18rem;">
+              <img src="Figma portfolio/mobiles/p2.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Samsung Galaxy A35 5G (Awesome Lilac, 8GB RAM, 128GB Storage) | Premium Glass Back
+                  | 50 MP Main Camera (OIS) | Nightography | IP67 | Corning Gorilla Glass Victus+ | sAMOLED with Vision
+                  Booster
+                </p>
+                <h1 class="fs-5 rate">Price : ₹28999</h1>
+              </div>
+            </div></div>
+        <div class="col-md-6 box shap">
+            <div class="card sty shp" style="width: 18rem;">
+              <img src="Figma portfolio/mobiles/a2.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">En ligne 47 Mobile Holder
+                </p>
+                <h1 class="fs-5 rate">Price : ₹167</h1>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-6 box shap">
+          <div class="card sty shp" style="width: 18rem;">
+                <img src="Figma portfolio/mobiles/p6.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Hold up Mini Fill Lights for Cell Phone Laptop TikTok Selfie Video Conference
+                    Camera Flash (White Light&Warm Light&Warm White Light)
+                  </p>
+                  <h1 class="fs-5 rate">Price : ₹399</h1>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-6 box shap">
+           <div class="card motsty shp" style="width: 18rem;">
+              <img src="Figma portfolio/mobiles/p3.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">APPLE iPhone Air (Sky Blue, 256 GB)
+                </p>
+                <h1 class="fs-5 rate">Price : ₹99,900</h1>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-6 box shap">
+          <div class="card sty shp" style="width: 18rem;">
+              <img src="Figma portfolio/mobiles/p5.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">IQOO Z10 5G (Stellar Black / Black, 128 GB) (8 GB RAM)
+                </p>
+                <h1 class="fs-5 rate">Price : ₹24,077</h1>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-6 box shap">
+          <div class="card sty shp" style="width: 18rem;">
+              <img src="Figma portfolio/mobiles/p4.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">REDMI 15 5G (Midnight Black, 128 GB) (6 GB RAM)
+                </p>
+                <h1 class="fs-5 rate">Price : ₹16,999</h1>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-6 box shap">
+          <div class="card sty shp" style="width: 18rem;">
+              <img src="Figma portfolio/mobiles/a1.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">SB 65 W SuperVOOC 6 A Wall Charger for Mobile with Detachable Cable (White, Cable
+                  Included)
+                </p>
+                <h1 class="fs-5 rate">Price : ₹300</h1>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-6 box shap">
+           <div class="card sty shp" style="width: 18rem;">
+              <img src="Figma portfolio/mobiles/a3.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">ELV DIRECT Wall Mount Mobile Stand/Multi-Purpose Stand for Phone Charging (White)
+                  Mobile Holder
+                </p>
+                <h1 class="fs-5 rate">Price : ₹151</h1>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+   <!-- footer st -->
+    <div class="container-fluid d-flex bg-dark  mt-5 justify-content-center align-items-center">
+      <div class="container p-5 text-white">
+        <div class="row">
+          <div class="col-sm-5 col-md-12 ">
+            <div class="row">
+              <div class="col-sm-4 col-md-4">
+                <h1>About</h1>
+                <br>
+                <p class="fot">Contact Us</p>
+                <p class="fot">About Us</p>
+                <p class="fot">Indocraft Stores</p>
+                <p class="fot">Carrer</p>
+              </div>
+              <div class="col-sm-4 col-md-4">
+                <h1>HELP</h1>
+                <br>
+                <p class="fot">Payment</p>
+                <p class="fot">Shiping</p>
+                <p class="fot">Cancelling & Retrun</p>
+                <p class="fot">FAQ</p>
+              </div>
+              <div class="col-sm-4 col-md-4">
+                <h1>COUNSUMER POLICY</h1>
+                <br>
+                <p class="fot">Cancellation & Retrun</p>
+                <p class="fot">Tearm of use</p>
+                <p class="fot">Privacy</p>
+                <p class="fot">Sitemap</p>
+                <p class="fot">Grievance Redressal</p>
+                <p class="fot">EPR Compliance</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5 col-md-12 >                                                                                                                                                                                                      mail">
+              <div class="row">
+                <div class="col-sm-6">
+                  <h4>Mail Us</h4>
+                  <p>
+                    worksahil34@gmail.com
+                  </p>
+                  <h4>Follow Us</h4>
+                  <p class="foll"><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-threads"></i> <i class="fa-brands fa-x-twitter"></i></p>
+                </div>
+                <div class="col-sm-6">
+                  <h4>Registered Office Address:</h4>
+                  <p>Flipkart Internet Private Limited,  <br>
+                   Buildings Alyssa, Begonia & <br>
+                   Clove Embassy Tech Village, <br>
+                   Outer Ring Road, Devarabeesanahalli Village, <br>
+                   Bengaluru, 560103, <br>
+                   Karnataka, India <br>
+                   CIN : U51109KA2012PTC066107 <br>
+                   Telephone: <a href="#" style=" color: lightskyblue !important;">73036667710</a></p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer en -->
+  <!-- Swiper JS -->
+  <!-- Swiper JS -->
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper2", {
+      breakpoints: {
+        991: {
+      slidesPerView: 2,
+      spaceBetween: 50,
+        }
+      },
+      
+      breakpoints: {
+        550: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+        }
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper1", {
+      
+      slidesPerView: 4,
+      centeredSlides: true,
+      spaceBetween: 40,
+      grabCursor: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      
+    } );
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
